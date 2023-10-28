@@ -22,7 +22,7 @@
             text-decoration: none;
         }
         a:hover {
-            color: #990014;
+            color: blue;
             text-decoration:none;
         }
         li {
@@ -59,7 +59,7 @@
             height: 80px;
             cursor: pointer;
             border: none;
-            background: #A81FF9;
+            background: blue;
             color: azure;
             text-transform: uppercase;
             font-family: sans-serif;
@@ -71,13 +71,35 @@
         }
         .btn:hover{
             transform: translateY(-5px);
-            box-shadow: 0 7px 0 red;
+            box-shadow: 0 7px 0 blue;
         }
         .btn:active {
             transform: translateY(-2px)
-                box-shadow: 0 3px 0 red;
+                box-shadow: 0 3px 0 blue;
         }
             
+        
+        
+        
+        
+        
+        a{
+            text-decoration: none;
+            position: relative;
+        }
+        .left a:before{
+            content: '' ;
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: #000;
+            transition: 0.2s;
+        }
+        .left a:hover:before{
+            width: 100%$
+        }
         
     
     </style>
@@ -100,6 +122,9 @@ Stik Team © 2017-2023</p>
         </header>
          <img src="https://avatars.mds.yandex.net/i?id=6ed5b90784566eeffe2579ca0a843da834396901-10849338-images-thumbs&n=13" alt="">
         <header align = "center">
+            <h2> НАЧАТЬ ИГРАТЬ В SAMP СТАЛО ЕЩЕ ПРОЩЕ!<br>
+Никогда еще играть в самп не было так просто:<br>
+Загрузи лаунчер, выбери любимую игру, начни играть!</h2>
             <p> ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
             <h2>Надоело работать за копейки на шахте?<br> Все твои друзья богатые а ты ничего не добился?<br> Наш бонусный проект исправит это!<br> Только у нас ты сможешь развиться всего лишь ЗАЙДЯ в игру и стать богаче всех</h2>
                <button class="btn">
